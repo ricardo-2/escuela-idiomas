@@ -105,6 +105,64 @@ export default function Home() {
           </p>
         </motion.div>
       </section>
+      {/* SECCIÓN 4: Precios y métodos de pago */}
+      <section className="bg-white dark:bg-gray-900 w-full py-16 px-4">
+        <div className="max-w-5xl mx-auto text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="space-y-8"
+          >
+            <h2 className="text-4xl font-bold text-purple-800 dark:text-purple-400">
+              Precios y Métodos de Pago
+            </h2>
+            <p className="text-lg text-gray-700 dark:text-gray-200">
+              Ofrecemos planes flexibles para que elijas el que mejor se adapte a tus necesidades.
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {/* Plan Semanal */}
+              <div className="border border-purple-400 dark:border-purple-600 rounded-xl p-6 shadow-md bg-purple-50 dark:bg-gray-800">
+                <h3 className="text-2xl font-semibold mb-2 text-purple-800 dark:text-purple-300">Plan Semanal</h3>
+                <p className="text-lg mb-4">💰 <strong>$750 MXN</strong> / semana</p>
+                <ul className="text-left text-gray-800 dark:text-gray-200 space-y-1 mb-4">
+                  <li>✅ Tres clases por semana</li>
+                  <li>✅ Material digital incluido</li>
+                  <li>✅ Soporte por chat</li>
+                </ul>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Pago por transferencia, depósito o tarjeta.</p>
+              </div>
+
+              {/* Plan Mensual */}
+              <div className="border border-purple-400 dark:border-purple-600 rounded-xl p-6 shadow-md bg-purple-100 dark:bg-gray-800">
+                <h3 className="text-2xl font-semibold mb-2 text-purple-800 dark:text-purple-300">Plan Mensual</h3>
+                <p className="text-lg mb-4">💰 <strong>$3,000 MXN</strong> / mes</p>
+                <ul className="text-left text-gray-800 dark:text-gray-200 space-y-1 mb-4">
+                  <li>✅ Todo lo del plan semanal</li>
+                  <li>✅ 15% de descuento</li>
+                  <li>✅ Clases extra de apoyo</li>
+                  <li>✅ Evaluaciones personalizadas</li>
+                </ul>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Pago por transferencia, depósito o tarjeta.</p>
+              </div>
+
+              {/* Plan Anual */}
+              <div className="border border-purple-400 dark:border-purple-600 rounded-xl p-6 shadow-md bg-purple-50 dark:bg-gray-800">
+                <h3 className="text-2xl font-semibold mb-2 text-purple-800 dark:text-purple-300">Plan Anual</h3>
+                <p className="text-lg mb-4">💰 <strong>$30,000 MXN</strong> / año</p>
+                <ul className="text-left text-gray-800 dark:text-gray-200 space-y-1 mb-4">
+                  <li>✅ Todo lo del plan mensual</li>
+                  <li>✅ 2 meses gratis</li>
+                  <li>✅ Acceso prioritario a talleres</li>
+                  <li>✅ Acesorias 24/7 </li>
+                </ul>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Pago por transferencia, depósito o tarjeta.</p>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
 
       
       {/* <footer className="mt-auto w-full border-t border-gray-300 dark:border-gray-700 p-4 text-center text-sm text-gray-600 dark:text-gray-400 bg-white/70 dark:bg-black/70 backdrop-blur">
