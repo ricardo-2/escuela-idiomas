@@ -55,9 +55,10 @@ export default function Home() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full font-semibold text-lg mt-6">
               <button className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow hover:scale-105 transition">📞 Contactar</button>
               <button className="px-4 py-2 bg-green-500 text-white rounded-lg shadow hover:scale-105 transition">📅 Agendar cita</button>
-              <button className="px-4 py-2 bg-pink-500 text-white rounded-lg shadow hover:scale-105 transition">💬 Chatear</button>
+              {/* <button className="px-4 py-2 bg-pink-500 text-white rounded-lg shadow hover:scale-105 transition">💬 Chatear</button> */}
               <button className="px-4 py-2 bg-gray-800 text-white rounded-lg shadow hover:scale-105 transition">👨‍🎓 Ver estudiantes</button>
               <button className="px-4 py-2 bg-yellow-400 text-black rounded-lg shadow hover:brightness-110 transition col-span-full sm:col-span-2">✨ Más opciones</button>
+
             </div>
           </motion.div>
         </main>
@@ -163,6 +164,21 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
+<Link
+  href="https://wa.me/526562037032?text=Hola%2C%20estoy%20interesado%20en%20las%20clases%20de%20la%20Open%20Knowledge%20Academy"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="fixed bottom-6 right-6 z-50 bg-green-500 p-4 rounded-full shadow-lg hover:scale-110 transition-transform"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    className="w-7 h-7 text-white"
+    fill="currentColor"
+    viewBox="0 0 24 24"
+  >
+    <path d="M12.001 2.002a9.935 9.935 0 0 0-7.063 2.937 9.936 9.936 0 0 0-2.937 7.062c0 1.753.457 3.465 1.32 4.972L2 22l5.064-1.322a9.932 9.932 0 0 0 4.937 1.321h.001a9.935 9.935 0 0 0 7.062-2.937 9.933 9.933 0 0 0 2.937-7.062 9.935 9.935 0 0 0-2.937-7.063A9.933 9.933 0 0 0 12.001 2.002zm0 17.901a8.004 8.004 0 0 1-4.076-1.108l-.291-.174-3.004.785.8-2.932-.19-.3A8.025 8.025 0 1 1 20.002 12c0 4.414-3.586 8.001-8.001 8.001zm4.41-5.91c-.242-.121-1.434-.707-1.656-.787-.222-.081-.384-.121-.546.12s-.627.786-.769.948c-.142.162-.283.182-.525.061-.242-.121-1.02-.376-1.943-1.2-.719-.639-1.204-1.426-1.343-1.668-.14-.243-.015-.375.106-.496.11-.11.243-.283.364-.425.121-.141.161-.243.242-.404.08-.162.04-.303-.02-.424-.06-.121-.546-1.321-.748-1.809-.197-.471-.398-.407-.546-.415-.141-.008-.303-.01-.465-.01a.899.899 0 0 0-.648.303 2.726 2.726 0 0 0-.866 2.031c0 1.192.866 2.345.987 2.505.121.162 1.7 2.595 4.125 3.638.577.249 1.026.397 1.377.51.578.184 1.103.158 1.519.096.463-.069 1.434-.586 1.637-1.152.202-.567.202-1.053.141-1.152-.06-.1-.222-.162-.465-.283z" />
+  </svg>
+</Link>
 
       
       {/* <footer className="mt-auto w-full border-t border-gray-300 dark:border-gray-700 p-4 text-center text-sm text-gray-600 dark:text-gray-400 bg-white/70 dark:bg-black/70 backdrop-blur">
