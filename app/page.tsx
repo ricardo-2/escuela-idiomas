@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div
       className="min-h-screen flex flex-col font-sans text-black dark:text-white transition-colors duration-500 bg-cover bg-center"
-      style={{ backgroundImage: "url('/fondo.png')" }}
+      style={{ backgroundImage: "url('/fondo-principal.jpg')" }}
     >
       {/* HEADER si decides usarlo */}
       {/* <Header /> */}
@@ -52,14 +52,13 @@ export default function Home() {
               Tu navegador no soporta el video.
             </video>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full font-semibold text-lg mt-6">
+            {/* <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full font-semibold text-lg mt-6">
               <button className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow hover:scale-105 transition">📞 Contactar</button>
               <button className="px-4 py-2 bg-green-500 text-white rounded-lg shadow hover:scale-105 transition">📅 Agendar cita</button>
-              {/* <button className="px-4 py-2 bg-pink-500 text-white rounded-lg shadow hover:scale-105 transition">💬 Chatear</button> */}
+              <button className="px-4 py-2 bg-pink-500 text-white rounded-lg shadow hover:scale-105 transition">💬 Chatear</button> 
               <button className="px-4 py-2 bg-gray-800 text-white rounded-lg shadow hover:scale-105 transition">👨‍🎓 Ver estudiantes</button>
               <button className="px-4 py-2 bg-yellow-400 text-black rounded-lg shadow hover:brightness-110 transition col-span-full sm:col-span-2">✨ Más opciones</button>
-
-            </div>
+            </div> */}
           </motion.div>
         </main>
       </section>
@@ -156,7 +155,7 @@ export default function Home() {
                   <li>✅ Todo lo del plan mensual</li>
                   <li>✅ 2 meses gratis</li>
                   <li>✅ Acceso prioritario a talleres</li>
-                  <li>✅ Acesorias 24/7 </li>
+                  <li>✅ Asesorias 24/7 </li>
                 </ul>
                 <p className="text-sm text-gray-600 dark:text-gray-400">Pago por transferencia, depósito o tarjeta.</p>
               </div>
