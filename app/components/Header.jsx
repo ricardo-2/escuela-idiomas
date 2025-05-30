@@ -14,14 +14,14 @@ export default function Header() {
       <div className="absolute inset-0 bg-white/80 dark:bg-black/70 backdrop-blur-md"></div>
 
       <div className="relative max-w-6xl mx-auto flex justify-between items-center p-4">
-        <Link href="/" className="text-3xl font-bold text-purple-800 hover:text-purple-600 transition">
+        <Link href="/" className="text-3xl font-bold text-blue-800 hover:text-blue-700 transition">
           Open Knowledge Academy
         </Link>
 
         <nav className="hidden md:flex space-x-6 font-semibold tracking-wide">
           <Link href="/servicios" className="hover:text-blue-600 transition hover:scale-105">Servicios</Link>
-          <Link href="/acerca" className="hover:text-green-600 transition hover:scale-105">Acerca</Link>
-          <Link href="/contacto" className="hover:text-purple-600 transition hover:scale-105">Contacto</Link>
+          <Link href="/acerca" className="hover:text-blue-600 transition hover:scale-105">Acerca</Link>
+          <Link href="/contacto" className="hover:text-blue-600 transition hover:scale-105">Contacto</Link>
         </nav>
 
         <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden text-2xl">

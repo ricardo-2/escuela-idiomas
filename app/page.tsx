@@ -26,10 +26,10 @@ export default function Home() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <h1 className="text-4xl font-bold text-purple-800 dark:text-purple-400">
+          <h1 className="text-4xl font-bold text-blue-800 dark:text-blue-700">
             Bienvenido a Open Knowledge Academy
           </h1>
-          <p className="text-lg leading-relaxed text-black dark:text-white">
+          <p className="text-lg leading-relaxed text-black blue:text-white">
           🚀 En Open Knowledge Academy no solo enseñamos, ¡inspiramos! Somos una escuela moderna donde aprender <strong>idiomas</strong> y <strong>programación</strong> se convierte en una aventura emocionante. Combinamos tecnología de punta, métodos interactivos y atención personalizada para que cada estudiante aprenda a su ritmo y con entusiasmo. 💡 Aquí no hay clases aburridas: hay experiencias que transforman. Y sí, nuestros maestros son tan geniales como suena.
          </p>
         </motion.div>
@@ -47,7 +47,7 @@ export default function Home() {
             <video
               src="/video-maestro.mp4"
               controls
-              className="w-full rounded-xl shadow-lg ring-2 ring-purple-500"
+              className="w-full rounded-xl shadow-lg ring-2 ring-blue-700"
             >
               Tu navegador no soporta el video.
             </video>
@@ -114,7 +114,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="space-y-8"
           >
-            <h2 className="text-4xl font-bold text-purple-800 dark:text-purple-400">
+            <h2 className="text-4xl font-bold text-blue-800 dark:text-blue-700">
               Precios y Métodos de Pago
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-200">
@@ -123,8 +123,8 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* Plan Semanal */}
-              <div className="border border-purple-400 dark:border-purple-600 rounded-xl p-6 shadow-md bg-purple-50 dark:bg-gray-800">
-                <h3 className="text-2xl font-semibold mb-2 text-purple-800 dark:text-purple-300">Plan Semanal</h3>
+              <div className="border border-purple-400 dark:border-purple-600 rounded-xl p-6 shadow-md bg-blue-50 dark:bg-gray-800">
+                <h3 className="text-2xl font-semibold mb-2 text-blue-800 dark:text-blue-300">Plan Semanal</h3>
                 <p className="text-lg mb-4">💰 <strong>$750 MXN</strong> / semana</p>
                 <ul className="text-left text-gray-800 dark:text-gray-200 space-y-1 mb-4">
                   <li>✅ Tres clases por semana</li>
@@ -136,7 +136,7 @@ export default function Home() {
 
               {/* Plan Mensual */}
               <div className="border border-purple-400 dark:border-purple-600 rounded-xl p-6 shadow-md bg-purple-100 dark:bg-gray-800">
-                <h3 className="text-2xl font-semibold mb-2 text-purple-800 dark:text-purple-300">Plan Mensual</h3>
+                <h3 className="text-2xl font-semibold mb-2 text-blue-800 dark:text-blue-300">Plan Mensual</h3>
                 <p className="text-lg mb-4">💰 <strong>$3,000 MXN</strong> / mes</p>
                 <ul className="text-left text-gray-800 dark:text-gray-200 space-y-1 mb-4">
                   <li>✅ Todo lo del plan semanal</li>
@@ -149,7 +149,7 @@ export default function Home() {
 
               {/* Plan Anual */}
               <div className="border border-purple-400 dark:border-purple-600 rounded-xl p-6 shadow-md bg-purple-50 dark:bg-gray-800">
-                <h3 className="text-2xl font-semibold mb-2 text-purple-800 dark:text-purple-300">Plan Anual</h3>
+                <h3 className="text-2xl font-semibold mb-2 text-blue-800 dark:text-blue-300">Plan Anual</h3>
                 <p className="text-lg mb-4">💰 <strong>$30,000 MXN</strong> / año</p>
                 <ul className="text-left text-gray-800 dark:text-gray-200 space-y-1 mb-4">
                   <li>✅ Todo lo del plan mensual</li>

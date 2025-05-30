@@ -8,7 +8,7 @@ export default function Acerca() {
     dark:to-gray-800 text-black dark:text-white font-sans transition-colors duration-500 p-6">
       <main className="max-w-4xl mx-auto mt-16">
         <motion.h1
-          className="text-4xl font-bold mb-6 text-center text-purple-800 dark:text-yellow-300"
+          className="text-4xl font-bold mb-6 text-center text-blue-800 dark:text-yellow-300"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}

@@ -12,7 +12,7 @@ export default function Servicios() {
     >
       
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-4xl font-bold mb-4 text-center text-purple-700 dark:text-purple-400">
+        <h1 className="text-4xl font-bold mb-4 text-center text-blue-700 dark:text-blue-400">
           Servicios Estudiantiles
         </h1>
         <p className="text-center mb-10 text-lg text-gray-700 dark:text-gray-300">
@@ -58,9 +58,9 @@ export default function Servicios() {
         </div>
 
         <div className="text-center mt-12">
-          <a href="/contacto" className="bg-purple-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-purple-700 transition">
+          {/* <a href="/contacto" className="bg-purple-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-purple-700 transition">
             Contáctanos
-          </a>
+          </a> */}
         </div>
         
       </div>
