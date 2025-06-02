@@ -36,7 +36,7 @@ const maestros = [
 export default function Contacto() {
   return (
     <div className="min-h-screen bg-gradient-to-tr from-white via-blue-50 to-purple-100 dark:from-black dark:via-gray-900 dark:to-gray-800 text-black dark:text-white px-6 py-12">
-      <h1 className="text-4xl font-bold text-center mb-12 text-blue-700 dark:text-yellow-300">
+      <h1 className="text-4xl font-bold text-center mb-12 text-blue-700 dark:text-white-300">
         Conoce a nuestros maestros
       </h1>
       

@@ -12,7 +12,7 @@ export default function Servicios() {
     >
       
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-4xl font-bold mb-4 text-center text-blue-700 dark:text-blue-400">
+        <h1 className="text-4xl font-bold mb-4 text-center text-blue-700 dark:text-black-400">
           Servicios Estudiantiles
         </h1>
         <p className="text-center mb-10 text-lg text-gray-700 dark:text-gray-300">

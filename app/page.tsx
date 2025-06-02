@@ -79,8 +79,8 @@ export default function Home() {
             height={200}
             className="rounded-full shadow-2xl object-cover ring-4 ring-blue-400 dark:ring-purple-600"
           />
-          <h2 className="text-3xl font-bold text-black dark:text-white">Mauricio Rosales</h2>
-          <p className="text-black dark:text-white leading-relaxed">
+          <h2 className="text-3xl font-bold text-black dark:text-black">Mauricio Rosales</h2>
+          <p className="text-black dark:text-black leading-relaxed">
             🎓 Profesor de idiomas con más de 10 años de experiencia impartiendo clases de <strong>inglés</strong>, <strong>francés</strong> y <strong>alemán</strong>. Ofrezco una enseñanza estructurada, eficaz y adaptada a las necesidades de cada estudiante.
           </p>
         </motion.div>
@@ -99,8 +99,8 @@ export default function Home() {
             height={200}
             className="rounded-full shadow-2xl object-cover ring-4 ring-blue-400 dark:ring-purple-600"
           />
-          <h2 className="text-3xl font-bold text-black dark:text-white">Taylor Gonzalez</h2>
-          <p className="text-black dark:text-white leading-relaxed">
+          <h2 className="text-3xl font-bold text-black dark:text-black">Taylor Gonzalez</h2>
+          <p className="text-black dark:text-black leading-relaxed">
             🎓 Profesor de programación con más de 10 años de experiencia formando a estudiantes en distintas tecnologías. Mis clases se caracterizan por ser prácticas, actualizadas y orientadas a resultados reales.
           </p>
         </motion.div>
