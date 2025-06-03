@@ -15,7 +15,7 @@ export default function Servicios() {
         <h1 className="text-4xl font-bold mb-4 text-center text-blue-700 dark:text-black-400">
           Servicios Estudiantiles
         </h1>
-        <p className="text-center mb-10 text-lg text-gray-700 dark:text-gray-300">
+        <p className="text-center mb-10 text-lg text-gray-700 dark:text-gray-700">
           Apoyamos a estudiantes con recursos, orientación y herramientas para su desarrollo académico y profesional.
         </p>
 

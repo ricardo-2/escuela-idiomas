@@ -30,13 +30,26 @@ const maestros = [
       linkedin: "https://linkedin.com/in/taylorgonzales"
     }
   },
+  {
+  nombre: "Ricardo Rosales",
+  foto: "/ceo.jpg",
+  descripcion: "Fundador y Director de la Academia. Visionario en el ámbito educativo, creó esta institución con el firme propósito de construir un mundo más preparado, empoderando a las personas a través del conocimiento, la innovación y la formación tecnológica de excelencia.",
+  correo: "ricardo.rosales@email.com",
+  redes: {
+    facebook: "https://facebook.com/ricardorosales",
+    twitter: "https://twitter.com/ricardorosales",
+    linkedin: "https://linkedin.com/in/ricardorosales"
+  }
+}
+
+
   // Puedes agregar más maestros aquí
 ];
 
 export default function Contacto() {
   return (
     <div className="min-h-screen bg-gradient-to-tr from-white via-blue-50 to-purple-100 dark:from-black dark:via-gray-900 dark:to-gray-800 text-black dark:text-white px-6 py-12">
-      <h1 className="text-4xl font-bold text-center mb-12 text-blue-700 dark:text-white-300">
+      <h1 className="text-4xl font-bold text-center mb-12 text-blue-700 dark:text-yellow-300">
         Conoce a nuestros maestros
       </h1>
       

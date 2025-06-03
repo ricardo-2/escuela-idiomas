@@ -14,7 +14,7 @@ export default function Header() {
       <div className="absolute inset-0 bg-white/80 dark:bg-black/70 backdrop-blur-md"></div>
 
       <div className="relative max-w-6xl mx-auto flex justify-between items-center p-4">
-        <Link href="/" className="text-3xl font-bold text-blue-800 hover:text-blue-700 transition">
+        <Link href="/" className="text-3xl font-bold text-blue-800 hover:text-yellow-300 transition">
           Open Knowledge Academy
         </Link>
 

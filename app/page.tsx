@@ -37,31 +37,27 @@ export default function Home() {
 
       {/* SECCIÓN 2: Video de presentación */}
       <section className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white w-full">
-        <main className="max-w-4xl mx-auto px-4 py-12">
-          <motion.div
-            className="flex flex-col gap-4 items-center"
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
-          >
-            <video
-              src="/video-maestro.mp4"
-              controls
-              className="w-full rounded-xl shadow-lg ring-2 ring-blue-700"
-            >
-              Tu navegador no soporta el video.
-            </video>
+  <main className="max-w-4xl mx-auto px-4 py-12">
+    <motion.div
+      className="flex flex-col gap-4 items-center"
+      initial={{ opacity: 0, x: 30 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.6 }}
+    >
+      <video
+        src="/video-maestro.mp4"
+        autoPlay
+        muted
+        loop
+        controls
+        className="w-full rounded-xl shadow-lg ring-2 ring-blue-700"
+      >
+        Tu navegador no soporta el video.
+      </video>
+    </motion.div>
+  </main>
+</section>
 
-            {/* <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full font-semibold text-lg mt-6">
-              <button className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow hover:scale-105 transition">📞 Contactar</button>
-              <button className="px-4 py-2 bg-green-500 text-white rounded-lg shadow hover:scale-105 transition">📅 Agendar cita</button>
-              <button className="px-4 py-2 bg-pink-500 text-white rounded-lg shadow hover:scale-105 transition">💬 Chatear</button> 
-              <button className="px-4 py-2 bg-gray-800 text-white rounded-lg shadow hover:scale-105 transition">👨‍🎓 Ver estudiantes</button>
-              <button className="px-4 py-2 bg-yellow-400 text-black rounded-lg shadow hover:brightness-110 transition col-span-full sm:col-span-2">✨ Más opciones</button>
-            </div> */}
-          </motion.div>
-        </main>
-      </section>
 
       {/* SECCIÓN 3: Maestros */}
       <section className="w-full max-w-5xl mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
