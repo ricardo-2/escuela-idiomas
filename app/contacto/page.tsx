@@ -11,7 +11,7 @@ const maestros = [
   {
     nombre: "Mauricio Rosales",
     foto: "/maestro.jpg",
-    descripcion: "Profesor de idiomas con más de 10 años enseñando inglés, francés y alemán.",
+    descripcion: "Profesor de idiomas con más de 10 años enseñando inglés.",
     correo: "mauricio.rosales@email.com",
     redes: {
       facebook: "https://facebook.com/mauriciorosales",
@@ -53,7 +53,7 @@ export default function Contacto() {
         Conoce a nuestros maestros
       </h1>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto">
+      <div className="flex flex-col gap-10 max-w-3xl mx-auto">
         {maestros.map((maestro, index) => (
           <motion.div
             key={index}
