@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <header className="relative w-full border-b border-gray-200 dark:border-gray-700 shadow-md sticky top-0 z-50">
       {/* Imagen de fondo con overlay */}
-      <div className="absolute inset-0 bg-[url('/fondo-escuela2.jpg')] bg-cover bg-center opacity-70 dark:opacity-60"></div>
+      {/* <div className="absolute inset-0 bg-[url('/fondo-escuela2.jpg')] bg-cover bg-center opacity-70 dark:opacity-60"></div> */}
       <div className="absolute inset-0 bg-white/80 dark:bg-black/70 backdrop-blur-md"></div>
 
       <div className="relative max-w-6xl mx-auto flex justify-between items-center p-4">

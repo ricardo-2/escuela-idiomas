@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Header from "./components/Header";
 import Footer from './components/Footer';
+import ButtonCheckout from "./components/ButtonCheckout";
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -100,6 +101,28 @@ export default function Home() {
             🎓 Profesor de programación con más de 10 años de experiencia formando a estudiantes en distintas tecnologías. Mis clases se caracterizan por ser prácticas, actualizadas y orientadas a resultados reales.
           </p>
         </motion.div>
+
+
+        <motion.div
+          className="flex flex-col items-center text-center gap-4"
+          initial={{ opacity: 0, x: 30 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+        >
+          <Image
+            src="/jesus.jpg"
+            alt="Foto del maestro Jesus"
+            width={200}
+            height={200}
+            className="rounded-full shadow-2xl object-cover ring-4 ring-blue-400 dark:ring-purple-600"
+          />
+          <h2 className="text-3xl font-bold text-black dark:text-black">Jesus</h2>
+          <p className="text-black dark:text-black leading-relaxed">
+            Creo firmemente que aprender un idioma debe ser un proceso interactivo y agradable,
+             por lo que utilizo ejemplos de la vida real, actividades dinámicas y práctica constante.
+             Mi objetivo es que el estudiante se sienta cómodo, motivado y capaz de expresarse en inglés.
+          </p>
+        </motion.div>
       </section>
       {/* SECCIÓN 4: Precios y métodos de pago */}
 <section className="bg-white dark:bg-gray-900 w-full py-16 px-4">
@@ -130,13 +153,12 @@ export default function Home() {
             </ul>
             <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">Pago por transferencia, depósito o tarjeta.</p>
           </div>
-          <Link
-            href="https://checkout.stripe.com/pay/tu_link_del_plan_semanal"
-            target="_blank"
-            className="mt-4 bg-blue-700 hover:bg-blue-800 text-white font-semibold py-2 px-4 rounded-lg transition"
-          >
-            Comprar Plan Semanal
-          </Link>
+          {/* <form action="http://localhost:3000/api/checkout/plan-semanal" method="POST">
+          <button type="submit" className="bg-green-600 hover:bg-green-700 text-white font-semibold px-4 py-2 rounded-xl shadow">
+            Pagar con tarjeta
+          </button>
+        </form> */}
+       <ButtonCheckout priceID = {	"price_1RYc77B3HWM2qahRqy8GSg5q"}></ButtonCheckout>
         </div>
 
         {/* Plan Mensual */}
@@ -175,7 +197,7 @@ export default function Home() {
             <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">Pago por transferencia, depósito o tarjeta.</p>
           </div>
           <Link
-            href="https://checkout.stripe.com/pay/tu_link_del_plan_anual"
+            href="https://checkout.stripe.com/api/checkout/"
             target="_blank"
             className="mt-4 bg-indigo-700 hover:bg-indigo-800 text-white font-semibold py-2 px-4 rounded-lg transition"
           >
