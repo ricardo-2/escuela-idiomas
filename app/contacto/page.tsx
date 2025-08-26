@@ -42,7 +42,7 @@ const maestros = [
   }
 },
 {
-  nombre: "Jess",
+  nombre: "Jesus",
   foto: "/jesus.jpg",
   descripcion: "soy profesor independiente de inglés Tengo experiencia enseñando a estudiantes de diferentes edades y contextos, siempre con el objetivo de ayudarles a comunicarse con confianza y naturalidad.Mi estilo de enseñanza es práctico y personalizado: adapto las clases a las metas de cada estudiante, ya sea mejorar la fluidez, prepararse para exámenes, aprender inglés de negocios o sentirse más seguro en conversaciones cotidianas.",
   correo: "jesus@email.com",
